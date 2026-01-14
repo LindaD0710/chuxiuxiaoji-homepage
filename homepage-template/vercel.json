@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/ielts-novel/:path*",
-      "destination": "https://ielts-novel-flow-git-main-lindadongs-projects-57b75bbd.vercel.app/:path*"
-    }
-  ]
-}
