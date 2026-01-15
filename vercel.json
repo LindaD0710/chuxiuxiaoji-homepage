@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/ielts-novel",
+      "destination": "https://ielts-novel-flow.vercel.app/"
+    },
+    {
       "source": "/ielts-novel/:path*",
       "destination": "https://ielts-novel-flow.vercel.app/:path*"
     }
