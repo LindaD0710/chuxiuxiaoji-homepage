@@ -12,13 +12,13 @@ export default function Home() {
         </p>
         
         <div className="space-y-4">
-          <Link
-            href="/ielts-novel"
+          <a
+            href="https://ielts-novel.chuxiuxiaoji.com"
             className="block px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-semibold rounded-xl hover:from-cyan-400 hover:to-purple-400 transition-all duration-200 shadow-lg hover:shadow-cyan-500/30"
           >
             <div className="text-lg mb-1">IELTS Novel Flow</div>
             <div className="text-sm opacity-90">通过阅读小说学习雅思词汇</div>
-          </Link>
+          </a>
           
           {/* 将来可以添加更多产品 */}
           {/* 
