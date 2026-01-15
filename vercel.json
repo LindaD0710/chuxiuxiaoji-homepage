@@ -5,6 +5,10 @@
       "destination": "https://ielts-novel-flow.vercel.app/"
     },
     {
+      "source": "/ielts-novel/_next/static/:path*",
+      "destination": "https://ielts-novel-flow.vercel.app/_next/static/:path*"
+    },
+    {
       "source": "/ielts-novel/_next/:path*",
       "destination": "https://ielts-novel-flow.vercel.app/_next/:path*"
     },
@@ -15,6 +19,17 @@
     {
       "source": "/ielts-novel/:path*",
       "destination": "https://ielts-novel-flow.vercel.app/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/ielts-novel/:path*",
+      "headers": [
+        {
+          "key": "X-Forwarded-Path",
+          "value": "/ielts-novel"
+        }
+      ]
     }
   ]
 }
