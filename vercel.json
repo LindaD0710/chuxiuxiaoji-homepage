@@ -20,16 +20,5 @@
       "source": "/ielts-novel/:path*",
       "destination": "https://ielts-novel-flow.vercel.app/:path*"
     }
-  ],
-  "headers": [
-    {
-      "source": "/ielts-novel/:path*",
-      "headers": [
-        {
-          "key": "X-Forwarded-Path",
-          "value": "/ielts-novel"
-        }
-      ]
-    }
   ]
 }
